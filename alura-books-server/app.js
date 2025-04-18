@@ -3,7 +3,6 @@ const express = require("express");
 
 // importando rota livros
 const rotaLivros = require("./routes/livros.js");
-// para fazer o parse do json
 
 // usando express para criar um servidor
 const app = express();

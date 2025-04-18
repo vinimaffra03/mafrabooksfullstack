@@ -3,6 +3,8 @@ const {
   getLivros,
   getLivro,
   postLivro,
+  patchLivro,
+  deleteLivro,
 } = require("../controladores/livroscontrol.js");
 
 // criando instancia do Router
@@ -20,14 +22,10 @@ router.get("/:id", getLivro);
 router.post("/", postLivro);
 
 // PATCH
-router.patch("/", (req, res) => {
-  res.send("Voce fez uma requisicao do tipo PATCH !");
-});
+router.patch("/:id", patchLivro);
 
 // DELETE
-router.delete("/", (req, res) => {
-  res.send("Voce fez uma requisicao do tipo DELETE !");
-});
+router.delete("/:id", deleteLivro);
 
 module.exports = router;
 // exportando o router
