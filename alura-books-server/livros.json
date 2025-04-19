@@ -1,1 +1,15 @@
-[{"id":1,"nome":"Livro irado"},{"id":2,"nome":"livro testando patch"},{"id":3,"nome":"Livro mais que demais"},{"id":4,"nome":"Livro muito menos irado que os outros"},{"id":5,"nome":"livro numero cinco testando patch"},{"id":6,"nome":"livro numero cinco testando post apos delete"}]
+[
+  { "id": 1, "nome": "Livro irado" },
+  { "id": 2, "nome": "livro testando patch" },
+  { "id": 3, "nome": "Livro mais que demais" },
+  { "id": 4, "nome": "Livro muito menos irado que os outros" },
+  { "id": 5, "nome": "livro numero cinco testando patch" },
+  { "id": 6, "nome": "livro numero cinco testando post apos delete" },
+  {
+    "id": 7,
+    "nome": "livro numero sete testando post apos delete e agora usando patch"
+  },
+  { "id": 8, "nome": "livro numero nove testando com patch apos delete " },
+  { "id": 9, "nome": "livro numero nove testando com patch apos delete " },
+  { "id": 10, "nome": "testando post com condicional de verificacao do body" }
+]
